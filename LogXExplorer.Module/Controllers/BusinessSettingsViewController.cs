@@ -29,7 +29,7 @@ namespace LogXExplorer.Module.Controllers
     // For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppViewControllertopic.aspx.
     public partial class BusinessSettingsViewController : ViewController
     {
-
+        // nEeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
         LoadCarrierType lctIn;
         LoadCarrierType lctOut;
 
@@ -492,7 +492,7 @@ public BusinessSettingsViewController()
             
             int rekord = 0;
 
-            using (var fileStream = new FileStream(@"C:\Projects\LogXExplorer\Imports\LogX_AbcType.csv", FileMode.Open, FileAccess.Read))
+            using (var fileStream = new FileStream(@"C:\Users\Halász Alexandra\OneDrive\LogX\halaszalexandra\LOGX\Imports\LogX_AbcType.csv", FileMode.Open, FileAccess.Read))
             {
 
                     StreamReader reader = new StreamReader(fileStream);
@@ -532,7 +532,7 @@ public BusinessSettingsViewController()
            
             int rekord = 0;
 
-            using (var fileStream = new FileStream(@"C:\Projects\LogXExplorer\Imports\LogX_AccelerateType.csv", FileMode.Open, FileAccess.Read))
+            using (var fileStream = new FileStream(@"C:\Users\Halász Alexandra\OneDrive\LogX\halaszalexandra\LOGX\Imports\LogX_AccelerateType.csv", FileMode.Open, FileAccess.Read))
             {
 
                 StreamReader reader = new StreamReader(fileStream);
@@ -613,7 +613,7 @@ public BusinessSettingsViewController()
             
             int rekord = 0;
 
-            using (var fileStream = new FileStream(@"C:\Projects\LogXExplorer\Imports\LogX_StorageLocation.csv", FileMode.Open, FileAccess.Read))
+            using (var fileStream = new FileStream(@"C:\Users\Halász Alexandra\OneDrive\LogX\halaszalexandra\LOGX\Imports\LogX_StorageLocation.csv", FileMode.Open, FileAccess.Read))
             {
 
                 StreamReader reader = new StreamReader(fileStream);
@@ -665,7 +665,7 @@ public BusinessSettingsViewController()
             
             int rekord = 0;
 
-            using (var fileStream = new FileStream(@"C:\Projects\LogXExplorer\Imports\LogX_LoadCarrier.csv", FileMode.Open, FileAccess.Read))
+            using (var fileStream = new FileStream(@"C:\Users\Halász Alexandra\OneDrive\LogX\halaszalexandra\LOGX\Imports\LogX_LoadCarrier.csv", FileMode.Open, FileAccess.Read))
             {
 
                     StreamReader reader = new StreamReader(fileStream);
@@ -710,7 +710,7 @@ public BusinessSettingsViewController()
            
             int rekord = 0;
 
-            using (var fileStream = new FileStream(@"C:\Projects\LogXExplorer\Imports\LogX_CommonTrType_Trans.csv", FileMode.Open, FileAccess.Read))
+            using (var fileStream = new FileStream(@"C:\Users\Halász Alexandra\OneDrive\LogX\halaszalexandra\LOGX\Imports\LogX_CommonTrType_Trans.csv", FileMode.Open, FileAccess.Read))
             {
 
                     StreamReader reader = new StreamReader(fileStream);
