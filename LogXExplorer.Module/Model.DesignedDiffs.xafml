@@ -126,10 +126,11 @@
               <LayoutItem Id="Oid" Removed="True" />
             </LayoutGroup>
           </LayoutGroup>
-          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="90.394088669950733" Caption="Audit Trail">
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="89.162561576354676" Caption="Audit Trail">
             <LayoutItem Id="AuditTrail" RelativeSize="98.54651162790698" />
             <LayoutItem Id="Item1" Index="1" RelativeSize="1.4534883720930232" IsNewNode="True" />
           </LayoutGroup>
+          <LayoutItem Id="Item2" Index="2" RelativeSize="1.2315270935960592" IsNewNode="True" />
         </LayoutGroup>
       </Layout>
     </DetailView>
